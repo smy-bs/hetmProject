@@ -1,0 +1,50 @@
+.login-button{
+  display:flex;
+  justify-content: flex-end;
+  gap:25px;  
+  padding:40px;
+}
+
+.nav-section{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+.menu-area{
+  display: flex;
+  justify-content: center;
+
+}
+
+.menu-list{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center; /* 메뉴 리스트를 가운데로 정렬 */
+}
+
+.menu-list li{
+  margin-right: 15px; /* 메뉴 아이템 간격 설정 */
+}
+.search {
+  display:flex;
+  justify-content: flex-end;
+  padding-left: 10px;
+  }
+
+  .search-icon{
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+  }
+
+  .ProductImg{
+    margin-top: 30px;
+    width:260px;
+  }
+  .ProductImg:hover{
+    transform: scale(1.1);
+    transition: all 300ms ease-out;
+  }
