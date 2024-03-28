@@ -2,6 +2,7 @@ import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUser } from '@fortawesome/free-regular-svg-icons';
 import { faSearch } from '@fortawesome/free-solid-svg-icons';
+import { useNavigate } from 'react-router-dom';
 
 
 const Navbar = () => {
@@ -14,9 +15,13 @@ const Navbar = () => {
         "Sport",
         "Développement durable",
     ];
+    const navigate = useNavigate()
+    const goToLogin = ()=>{
+          navigate('/login');
+    };
   return (
     <div>
-        <div className="login-button">
+        <div className="login-button" onClick={goToLogin}>
       <div>
         <FontAwesomeIcon icon = {faUser} /></div>
         <div>Login</div>

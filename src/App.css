@@ -3,6 +3,7 @@
   justify-content: flex-end;
   gap:25px;  
   padding:40px;
+  cursor:pointer;
 }
 
 .nav-section{
@@ -26,7 +27,7 @@
 }
 
 .menu-list li{
-  margin-right: 15px; /* 메뉴 아이템 간격 설정 */
+margin:25px 25px;
 }
 .search {
   display:flex;
@@ -47,4 +48,39 @@
   .ProductImg:hover{
     transform: scale(1.1);
     transition: all 300ms ease-out;
+  }
+
+ .form_section{
+    margin-top:5rem;
+  }
+
+  .form-Group{
+    width:500px;
+    padding:20px;
+    margin:auto;
+    border:1px solid #c1b9b96e;
+    border-radius: 8px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+  .btn_login{
+        width:450px;
+  }
+  .items-list{
+    display:flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding-bottom:5px;
+  
+  }
+  .product-img{
+    display:flex;
+    justify-content: flex-end;
+      }
+  .dropdown-toggle.btn.btn-light {
+        border: 1px solid black;
+       
+      }
+  .btn-dark{
+    width:450px;
+    margin-top:10px;
   }
