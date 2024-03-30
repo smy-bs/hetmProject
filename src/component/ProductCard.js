@@ -1,12 +1,14 @@
-import React from 'react'
-import { useNavigate } from 'react-router-dom'
+import React from 'react';
+import { useNavigate } from 'react-router-dom';
+
 
 const ProductCard = ({item}) => {
   const navigate = useNavigate();
   const showDetail = () =>{
     navigate(`/product/${item.id}`);
   };
-  return (
+
+   return (
     <div onClick={showDetail}>
     <div className="detailImg">
       <img className="ProductImg" src= {item?.img} /></div>
@@ -18,4 +20,6 @@ const ProductCard = ({item}) => {
   )
 }
 
-export default ProductCard
+
+export default ProductCard;
+

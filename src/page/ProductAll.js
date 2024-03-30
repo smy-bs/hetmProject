@@ -23,8 +23,8 @@ const ProductAll = () => {
  
 
   return (
-    <div className="mainPage">
-      <Container>
+    <div>
+      <Container className="mainPage">
       <Row className="ProductImgall">
                 {productList.map(menu => 
                     <Col xs={6} md={4} xl={3} key={menu.id}>

@@ -22,13 +22,13 @@ const ProductDetail = () => {
     <Container className="DetailPage">
      <Row>
       <Col>
-      <img src={product?.img}/></Col>
+      <img className="detailImg" src={product?.img}/></Col>
       <Col>
       <div className="items-list">{product?.title}</div>
       <div className="items-list">{product?.price}</div>
       <div className="items-list">{product?.choice == true? "Concious choice":""}</div>
       
-      <Dropdown>
+      <Dropdown className="dropdownBtn">
             <Dropdown.Toggle variant="light" id="dropdown-basic" >
               사이즈 선택
             </Dropdown.Toggle>
