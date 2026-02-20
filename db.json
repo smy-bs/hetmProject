@@ -93,6 +93,10 @@
         {
             "id":9,
             "img":"https://hnm-react-router-opal.vercel.app/design-hoodie.jpeg",
+<<<<<<< HEAD
+=======
+            
+>>>>>>> e1b8746 (Fix routing and login structure)
             "title":"프린트 후디",
             "price":19900,
             "choice":false,
